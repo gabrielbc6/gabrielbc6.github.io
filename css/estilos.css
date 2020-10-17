@@ -1,32 +1,36 @@
-*{
-	box-sizing:border-box;
+#xesque{
+	font-size: 16px;
+	background-color: #61122f;
+	color:#fff;
 }
 
-h1{
-	margin-bottom: 15px;
-	text-align: center;
+#linha{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-h2{
-
+#header-nav{
+	background-color: #ff8c66;
+	border-radius: 0;
+	border:0;
 }
 
-div{
-
+.navbar-brand{
+	padding-top:25px;
 }
 
-p{
-
+.navbar-brand h1{
+	font-family: Helvetica;
+	color:#4d4dff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.75;
 }
 
-@media(min-width:992px){
-
-}
-
-@media(min-width:768px) and (max-width:991px){
-
-}
-
-@media(max-width:767px){
-
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
 }
