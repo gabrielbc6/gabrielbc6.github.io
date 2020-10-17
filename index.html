@@ -13,13 +13,13 @@
 	<body id="xesque">
 		<header>
 			<nav id="header-nav" class="navbar navbar-default">
-				<div class="container" id="linha">
+				<div class="container-fluid" id="linha">
 					<div class="navbar-header">
 						<div class="navbar-brand">
 							<a href="index.html"><h1>Food,LLC</h1></a>
 						</div>
 
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav" aria-expanded="false">
+						<button type="button" class="navbar-toggle collapsed d-block d-sm-none" data-toggle="collapse" data-target="#collapsed-nav" aria-expanded="false">
         					<span class="sr-only">Toggle navigation</span>
         					<span class="icon-bar"></span>
         					<span class="icon-bar"></span>
@@ -27,9 +27,24 @@
       					</button>
 
 					</div>
+					<div class="collapse navbar-collapse d-block d-sm-none" id="collapsed-nav">
+      					<ul id="nav-list" class="nav navbar-nav navbar-right">
+        					<li><a href="#"><h3>Chicken</h3></a></li>
+        					<li><a href="#"><h3>Beef</h3></a></li>
+        					<li><a href="#"><h3>Sushi</h3></a></li>
+     					</ul>
+					</div>
 				</div>
 			</nav>
 		</header>
+		<div class="container-fluid">
+			<h2 class="text-center">Our Menu</h2>
+			<section>
+				<h4>Chicken</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet bibendum enim, nec tempor dolor. Mauris porttitor, ante accumsan porta tempus, quam lectus dapibus tortor, et mattis neque mi finibus sem. Cras urna ex, porta vitae erat vel, vestibulum facilisis dolor. Etiam venenatis, tortor eu sagittis maximus, ex neque viverra justo, at feugiat leo mauris in felis. Phasellus in neque nisl. Suspendisse pretium, justo eu congue scelerisque, odio purus efficitur tortor, quis rhoncus sem arcu in sem. In hac habitasse platea dictumst. In sed scelerisque tellus, eu elementum risus. Nam mauris ex, pulvinar eu iaculis at, dapibus sit amet sem.
+				</p>
+			</section>
+		</div>
 
 	</body>
 </html>
